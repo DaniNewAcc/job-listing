@@ -1,0 +1,11 @@
+.header {
+    background-color: var(--Desaturated-Dark-Cyan);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.header__img {
+    object-fit: contain;
+    width: 100%;
+}

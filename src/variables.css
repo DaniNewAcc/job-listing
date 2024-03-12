@@ -1,0 +1,19 @@
+:root {
+/* Primary Colors */
+
+--Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+
+/* Neutral */
+
+--Light-Grayish-Cyan: hsl(180, 52%, 96%);
+--Light-Grayish-Cyan2: hsl(180, 31%, 95%);
+--Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+--Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+
+/* Typography */
+
+--fs-paragraph: 15px;
+--ff: "League Spartan", sans-serif;
+--fw-regular: 500;
+--fw-bold: 700;
+}

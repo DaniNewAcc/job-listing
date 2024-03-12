@@ -1,0 +1,138 @@
+.is-featured {
+    border-left: 5px solid var(--Desaturated-Dark-Cyan);
+}
+
+.logo {
+    width: 90px;
+}
+
+.job__shadow {
+    box-shadow: 0 .5rem 1rem hsla(180, 29%, 50%, .25);
+}
+
+.job__company {
+    color: var(--Desaturated-Dark-Cyan);
+    font-weight: var(--fw-bold);
+}
+
+.job__position {
+    color: black;
+    cursor: pointer;
+    font-size: 1.125rem;
+    font-weight: var(--fw-bold);
+    margin-block: .275rem;
+    transition: all .3s ease-out;
+}
+
+.job__position:hover {
+    color: var(--Desaturated-Dark-Cyan);
+}
+
+.job__details-wrapper {
+    padding: 0;
+}
+
+.job__details-wrapper li::marker {
+    color: var(--Dark-Grayish-Cyan);
+    font-size: .675rem;
+}
+
+.job__details-wrapper li:nth-of-type(2) {
+    list-style-type: disc;
+}
+
+.job__details-wrapper li:nth-of-type(3) {
+    list-style-type: disc;
+}
+
+.job__details {
+    color: var(--Dark-Grayish-Cyan);
+}
+
+.job__new, .job__featured {
+    color: white;
+    font-size: .785rem;
+    padding-inline: .5rem;
+    padding-top: .2rem;
+}
+
+.job__new {
+    background-color: var(--Desaturated-Dark-Cyan);
+}
+
+.job__featured {
+    background-color: var(--Very-Dark-Grayish-Cyan);
+}
+
+.job__skill {
+    background-color: var(--Light-Grayish-Cyan2);
+    color: var(--Desaturated-Dark-Cyan);
+    cursor: pointer;
+    font-weight: var(--fw-bold);
+    margin-bottom: 0;
+    padding-block: .2rem;
+    padding-inline: .5rem;
+    transition: all .3s ease-out;
+}
+
+.job__skill:hover {
+    background-color: var(--Desaturated-Dark-Cyan);
+    color: white;
+}
+
+.job__skill-wrapper {
+    justify-content: end;
+}
+
+/* media queries */
+
+@media (max-width: 575.98px) {
+    .job__details-wrapper {
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+        width: 50px;
+    }
+
+    .translate {
+        transform: translateY(-2rem);
+    }
+    .job__position, .job__details {
+        font-size: .925rem;
+    }
+
+    .job__new, .job__featured {
+        font-size: .825rem;
+    }
+
+    .job__skill-wrapper {
+        flex-wrap: wrap;
+        font-size: .925rem;
+        gap: 1.1rem;
+        justify-content: start;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .job__details-wrapper {
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 1rem;
+    }
+
+    .logo {
+        margin-bottom: 1rem;
+        width: 80px;
+    }
+
+    .translate {
+        transform: translateY(-2.5rem);
+    }
+    .job__skill-wrapper {
+        flex-wrap: wrap;
+        gap: 1.1rem;
+        justify-content: start;
+    }
+}

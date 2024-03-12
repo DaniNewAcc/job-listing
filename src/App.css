@@ -1,0 +1,45 @@
+.basic-styling {
+  background-color: var(--Light-Grayish-Cyan2);
+
+  font-family: var(--ff);
+  font-size: var(--fs-paragraph);
+  font-weight: var(--fw-regular);
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  width: 1200px;
+}
+
+.filter-active {
+  margin-top: 0;
+}
+
+@media (max-width: 575.98px) {
+  .wrapper {
+    gap: 1.5rem;
+    margin-top: 3rem;
+    width: 330px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .wrapper {
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 600px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .wrapper {
+    gap: .5rem;
+    margin-top: 2rem;
+    width: 900px;
+  }
+}
