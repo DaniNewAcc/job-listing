@@ -24,7 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/desktop-design1.PNG)
+![](./screenshots/desktop-design2.PNG)
+![](./screenshots/mobile-design1.PNG)
+![](./screenshots/mobile-design2.PNG)
+![](./screenshots/mobile-design3.PNG)
+![](./screenshots/mobile-design4.PNG)
 
 
 ### Links
