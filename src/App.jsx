@@ -1,5 +1,5 @@
 import './App.css'
-import './variables.css';
+import './utils/variables.css';
 import { useEffect, useState } from 'react';
 import listings from '/data.json'
 import Header from './components/Header/Header';
