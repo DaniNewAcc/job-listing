@@ -1,7 +1,7 @@
 import './App.css'
 import './utils/variables.css';
 import { useEffect, useState } from 'react';
-import listings from '/data.json'
+import listings from './data.json'
 import Header from './components/Header/Header';
 import FilterBar from './components/FilterBar/FilterBar';
 import JobOffer from './components/JobOffer/JobOffer';
