@@ -34,7 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/DaniNewAcc/job-listing](https://github.com/DaniNewAcc/job-listing)
+- Live Site URL: [https://daninewacc.github.io/job-listing/](https://daninewacc.github.io/job-listing/)
 
 ## My process
 
